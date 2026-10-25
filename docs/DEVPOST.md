@@ -34,9 +34,6 @@ Consent Receipts is a Chrome extension that:
 - Receipts stay in local storage; the server only holds accounts, cached summaries, and anonymous change events.
 - 51 node tests, plus an end to end run of the demo in Chrome with the extension loaded.
 
-## Prior work disclosure
-Draft, for Nafiz to confirm: Nafiz built an early prototype of the consent receipt and policy change alert features before HackPSU Fall 26, and HackPSU organizers confirmed importing it is allowed. Built during the hackathon: finance mode (fee, interest rate, overdraft, late payment, minimum balance, auto renewal detectors), cited summaries with a trust score, Gemini integration, what to do next actions with drafted requests, negation aware rules, smarter consent detection (iframes, fewer false captures), and a refactor of the whole extension into ES modules with tests.
-
 ## Challenges we ran into
 TODO: fill in Sunday morning (e.g. detecting consent clicks across many banner vendors, splitting policy text into citable sentences, avoiding AI claims that are not backed by the text).
 
